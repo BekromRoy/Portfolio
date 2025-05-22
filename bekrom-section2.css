@@ -99,6 +99,18 @@
     height: 100%;
     transition: 0.5s;
 }
+.project-box .project-container .project-container-img .video-img{
+    width: 100%;
+    height: 100%;
+    transition: 0.5s;
+    position: absolute;
+    top: 50%;
+    transform: translate(0,-50%);
+}
+.project-box .project-container .project-container-img video{
+    width: 100%;
+    height: 100%;
+}
 .project-box .project-container .project-container-clr{
     height: 100%;
     width: 100%;
@@ -137,6 +149,11 @@
 .project-box .project-container:hover .project-container-img img{
     transform: scale(1.3);
     rotate: -8deg;
+}
+.project-box .project-container:hover .project-container-img .video-img{
+    transform: scale(1.3);
+    rotate: -8deg;
+    height: 0;
 }
 .project-box .project-container:hover .project-container-clr{
    	background: rgb(0,0,0);
